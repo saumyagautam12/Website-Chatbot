@@ -59,7 +59,7 @@ class WebsiteChatbot:
         # print("Chatbot ready.")
 
     def ask_question(self, question: str) -> str:
-        print("➡️ Question received:", question)
+        print(" Question received:", question)
 
         logger.info(f"User query received: {question}")
 
